@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+           <title>PROJECT 1</title>
+            
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+           <script src="JS/wow.min.js" type="text/javascript"></script>
+           <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+        <!-- script in used WOW(capital)-->
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+        <style type="text/css">
+            .navbar-inverse{
+                background-color: rgb(240, 141, 215)!important;
+        
+            }
+            .navbar-inverse .navbar-brand {
+                font-family: "Times New Roman";
+	            font-size:25px;
+                 color: #560545!important;
+            }
+            .navbar-inverse .navbar-nav>li>a{
+           color: #560545!important;
+            } 
+            HeaderDiv a.navbar-brand
+	            {
+	                font-family: "Times New Roman";
+	                font: size 20px;    
+	                color:#b15390;
+	            }
+                #navbarCollapse li b
+	            {
+                    font-family: "Times New Roman";
+	                font-size:20px;
+	                color:#f7eef5;
+	            }
+	            
+                .fullscreen_bg 
+                {
+                   height: 100vh;
+                   width: 100vw;
+                    overflow:hidden;
+                    z-index:-1;
+                }
+
+                .fullscreen_bg_video 
+                {
+                    position:absolute;
+                    height: 120vh;
+                   width: 100vw;
+	            }
+	            
+	            #Home
+	            {
+                    font-family: "Times New Roman";
+	                font: size 10px;
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#c5057e;
+	                font-weight:bold
+	            }
+	            
+	            #HomeRow
+	            {
+	                padding-top:7%;   
+	            }
+	            #HomeRow a i.fa
+	            {
+	                color:#c1087d;
+	            }
+	            
+	            #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(245, 193, 232, 0.7); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:5px;
+	                box-shadow:0px 0px 10px rgb(214, 65, 157);
+                    font-size: 10px;   
+	            }
+                #TechnicalSummary
+	            {
+	                height:auto;
+	                padding-bottom:10px;
+	                color:rgb(218, 86, 187);
+	                background-attachment:fixed;
+	                background-image:url('Images/a.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                line-height:1.5;
+	            }
+	            #TechnicalSummaryRow
+	            {
+	                padding-top:25%;
+	            }
+	            #TechnicalSummary h1
+	            {
+	                font-family: "Times New Roman";
+	            }
+                #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/66.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#b72da5;
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(123, 57, 107);
+	                
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+                #Skills
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/d.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#b72da5;
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+                    padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(123, 57, 107);
+	                opacity:0.8;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+                #Noncollegiate
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/56.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#b72da5;
+	            }
+	            #NoncollegiateRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #NoncollegiateRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow: rgb(123, 57, 107);
+	                opacity:0.8;
+	            }
+	            #Noncollegiate table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Noncollegiate table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Noncollegiate table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+                #Experience
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/7.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#b72da5;
+	            }
+	            #ExperienceRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #ExperienceRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(123, 57, 107);
+	                opacity:0.8;
+	            }
+	            #Experience table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Experience table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Experience table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	        
+	            #Portfolio
+	            {
+	                height:auto;
+	                padding: bottom 30px;
+	                color:#fff;
+	                font-size:20px;
+	                
+	            }
+	           
+	            #PortfolioRow h1
+	            {
+	                color:#cc2ca9;
+	                font-family:Monotype Corsiva;
+	            }  
+	            
+	            #Portfolio div.col-lg-3
+	            {
+	                margin-bottom:20px;
+	            }  
+	            .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                }
+                .image 
+                {
+                  display: block;
+                  width: 100%;
+                  height: 200px;
+				  transition:1s;
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  top: 0;
+                  right:0;
+                  background:rgba(247, 132, 226, 0.7);
+                  overflow: hidden;
+                  height: 100%;
+                  width:100%;
+                  opacity:0;
+                  transition:0.7ms;
+                }
+                .ContainerImage:hover .overlay 
+                {
+                  opacity:1;
+                }
+				.ContainerImage:hover .image 
+                {
+                  transform:rotate(360deg);
+                }
+                .text 
+                {
+                  color: rgb(235, 70, 180);
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+                #GitHub
+	            {
+	                height:auto;
+	                color:rgb(237, 44, 205);
+	                background-attachment:fixed;
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                
+	            }
+                .fullscreen1_bg 
+                {
+                    position:relative;
+                    top: -10;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    overflow:hidden;
+                    z-index:-1;
+                }
+
+                .fullscreen1_bg_video 
+                {
+                    position:absolute;
+                    width: auto;
+                    height: auto;
+                    min-width: 100%;
+	                min-height: 100%;
+	            }
+	            #GitHubRow
+	            {
+	                background:rgba(238, 181, 221, 0.8);
+	                padding-top:10%;
+	                padding-bottom:10%;
+                    overflow:hidden;
+                    z-index:-1
+
+	            }
+	            #GitHubRow div.col-lg-3
+	            {
+	                text-align:center;
+	            }
+	            #GitHubRow div.col-lg-3 i.fa
+	            {
+	                color:rgb(230, 53, 150);
+	            }
+	            #GitHub h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+                
+	            @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }
+        </style>    
+    </head>
+    <body>
+        <div>
+            <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" style="z-index: index 10000;">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header" id="HeaderDiv">
+                     <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                     </button>
+                     <a href="#" class="navbar-brand" ><b>Prof.Meghna Panara</b></a>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right" style="font: size 14px;padding-right:15px;">
+                        <li><a href="#Home"><b>Introduction</b></a></li>
+                        <li><a href="#TechnicalSummary"><b>Technical Summary</b></a></li>
+                        <li><a href="#Qualifications"><b>Qualifications</b></a></li>
+                        <li><a href="#Skills"><b>Skills</b></a></li>
+                        <li><a href="#Noncollegiate"><b>Noncollegiate</b></a></li>
+                        <li><a href="#Experience"><b>Experience</b></a></li>
+                        <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+                        <li><a href="#GitHub"><b>GitHub</b></a></li>
+                    </ul>
+              </div>
+         </nav>
+      </div>	
+      <!--Home-->
+      <div id="Home" class="fullscreen_bg">
+        <video src="Video/1.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+        <div class="row" id="HomeRow">
+            <!--Image-->
+             <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+                  <center><img src="Images/12.jpg" alt="MEGHNA PANARA" style="border-radius: 45.5%;"></center>
+                  <center><h2>Prof.MEGHNA PANARA</h2></center>
+                  <center><h5>Assistant professor</h5><hr /></center>
+                  <!--mobile,mail-->
+                  <div class="row">
+                      <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                           <center><i class="fa fa-2x fa-phone"></i> <br/><h5>+91-9106587892</h5></center>
+                      </div>
+                      <div class="col-lg-5 col-md-6 col-sm-6">
+                           <center><i class="fa fa-2x fa-envelope"></i> <br/><a href="mailto:meghanapanara.ca@silveroakuni.ac.in" style="color:#c1087d;"><h5>meghanapanara.ca@silveroakuni.ac.in</h5></a></center>
+                      </div>
+                  </div><hr/>  
+                  <div class="row">
+                      <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                           <center><i class="fa fa-2x fa-map-marker"> Silver Oak University Opp. Bhagwat Vidyapith, S. G. Road, Gota, Ahmedabad - 382481</i> </center>
+                      </div>
+                  </div><hr />
+                  <center><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+             </div>
+        </div>
+     </div> 
+     <div id="TechnicalSummary" class="container-fluid wow bounceIn" data-wow-duration="3s">
+        <div class="row" id="TechnicalSummaryRow">
+             <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                  <h1 class="text-center"><i class="fa fa-gears"></i> Technical Summary</h1><hr />
+                  <ul>
+                    <li>2015 – 2016 - Associate Member of one website project in work web designing</li><br/><br/>
+                    <li>2016 – 2017 - CISCO Router configuration in Saurashtra University campus using protocols like RIP</li><br/><br/>
+                    <li>2016 – 2017 - CISCO PACKET TRACER in creating a "Hospital Network" creating and cyberoamethrough Live Presentation in Last semester</li><br/><br/>
+                    <li>2017 – 2019 - M.Phil. in I have completed my thesis in "Conseptual Study of Netsim for Internet of Things"</li><br/><br/>
+                    <li>2019 - 2020 - firewall management in hospital live project</li><br/><br/> 
+                    <li>2021 - Currently working in datascience </li><br/>                   
+                    </ul>
+             </div>
+        </div>
+   </div>
+   <div id="Qualifications" class="container-fluid">
+              <div class="row" id="QualificationsRow">
+                   <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                        <br /><h2 class="text-center"><i class="fa fa-object-group"></i> Education Qualification</h2><hr />
+                        <table class="table table-responsive">
+                            <tr>
+                                <td>Year<br />2019 – 2021</td>
+                                <td>B.Ed. (Computer Science)<br /> from Shri Mahavir B.Ed. & M.Ed. College,<br /> Saurashtra University. <br /></td>
+                                <td>90.36 %</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2017 – 2019</td>
+                                <td>M.Phil. (Computer Science)<br /> from C.U.Shah University, Surendranagar <br /> C.U.Shah University. <br /> </td>
+                                <td>81 %</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2015 – 2017</td>
+                                <td>M.Sc. (IT & CA)<br /> from Department of Computer Science,<br/> Saurashtra University (Rajkot)<br /> </td>
+                                <td>6.44 CGPA</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2012 – 2015</td>
+                                <td>B.Sc. (IT & CA)<br /> from K.B.Shah Science College, <br /> Saurashtra University. <br /> </td>
+                                <td>67 %</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2011 – 2012</td>
+                                <td>High School<br /> from State Board, Gujarat <br /> Saurashtra University. <br /></td>
+                                <td>71.28 % <BR/>(89.35 PR)</td>
+                            </tr>
+                        </table>
+                   </div>
+              </div>
+         </div>
+         <div id="Skills" class="container-fluid">
+            <div class="row" id="SkillsRow">
+                 <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                      <center><br /><h2><i class="fa fa-object-group"></i> Technical Skills</h2><hr /></center>
+                      <table>
+                          <tr>
+                              <td>Programming Languages:</td>
+                              <td>C, C++, Java, HTML, Networking in CCNA ,Html,CSS, JavaScript, JQuery, Bootstrap </td>
+                          </tr>
+                          <tr>
+                              <td>Tools & Technologies:</td>
+                              <td>tableau,Netbeans,Cisco Packet Tracer,Macromedia Dreamviewer,Boson Network Designer,XAMP,CMD,Mozilla Firefox,TurboC++, Visual Studio Code</td>
+                          </tr>
+                          <tr>
+                              <td>Databases:</td>
+                              <td> Microsoft SQL Server, Microsoft Access.</td>
+                          </tr>
+                          <tr>
+                              <td>Protocols:</td>
+                              <td>SMTP, FTP </td>
+                          </tr>
+                          <tr>
+                              <td>Operating Systems:</td>
+                              <td>Microsoft Windows.</td>
+                          </tr>
+                          <tr>
+                              <td>Others:</td>
+                              <td> Data Science , Networking </td>
+                          </tr>
+                      </table>
+                 </div>
+            </div>
+       </div>
+       <div id="Noncollegiate" class="container-fluid">
+        <div class="row" id="NoncollegiateRow">
+             <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                  <center><br /><h2><i class="fa fa-object-group"></i> Non Collegiate Activities</h2><hr /></center>
+                  <table>
+                      <tr>
+                          <td>Year 2009</td>
+                          <td> National Karate champion  in utarakhand.<br /> At Utarakhand <br /> Rank 2<sup>rd</sup>.</td>
+                      </tr>
+                      <tr>
+                        <td>Year 2010</td>
+                        <td> State Karate champion  in utarakhand.<br /> At wadhwan <br /> Rank 1<sup>rd</sup>.</td>
+                    </tr>
+                      <tr>
+                          <td>Year 2011</td>
+                          <td> State judo champion  in utarakhand.<br /> At C.U.shah School. <br /> Rank 3<sup>nd</sup>.</td>
+                      </tr>
+                      <tr>
+                          <td>Year 2020</td>
+                          <td>M.Phil.in C.U.shah University <br /> C.U.shah University  <br /> Rank 2<sup>nd</sup>.</td>
+                      </tr>
+                      <tr>
+                        <td>Year 2020</td>
+                        <td>B.Ed. (Computer Science).in Shri Mahavir B.Ed. & M.Ed. College <br /> Shri Mahavir B.Ed. & M.Ed. College  <br /> Rank 3<sup>nd</sup>.</td>
+                    </tr>
+                  </table>
+             </div>
+        </div>
+   </div>
+    <div id="Experience" class="container-fluid">
+              <div class="row" id="ExperienceRow">
+                   <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                        <center><br /><h2><i class="fa fa-object-group"></i> Field Experience</h2><hr /></center>
+                        <table>
+                            <tr>
+                                <td>2016 – 2017</td>
+                                <td><b>Junior Engineer</b><br /> Worked at Giriraj Hospital as a Network Administrator.</td>
+                            </tr>
+                            <tr>
+                                <td>2017 – 2021</td>
+                                <td><b>Assistant Professor</b> <BR/>Sanskruti College of Thoughts ,Saurashtra University<BR/>Worked as an Assistant Professor in BCA
+                                    and BBA.</td>
+                            </tr>
+                            <tr>
+                                <td>2018 – 2021</td>
+                                <td><b>Assistant Professor</b><BR/>Pandit Nathulal Vyas College ,Gujarat University<BR/>Worked as an Assistant Professor in BCA
+                            and BBA.</td>
+                            <tr>
+                                <td>2021 – 2022</td>
+                                <td><b>Lecturer</b><BR/>Computer Application College,silver Oak University <BR/>Worked as an Assistant Professor in BCA,BSCCS&IT,MSCIT
+                            </td>
+                            <tr>    
+                            </tr>
+                        </table>
+                   </div>
+              </div>
+         </div>
+         <div id="Portfolio" class="container-fluid wow bounceIn" data-wow-duration="3s">
+            <div class="row" id="PortfolioRow">
+                 <center><br /><h1><i class="fa fa-object-group"></i> My Portfolio</h1><hr /></center>
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">100 Programming in Cisco packet Tracer in only Networking part 1 </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">100 Programming in Cisco packet Tracer in only Advance Networking part 2</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">1000 Programming in Cisco packet Tracer in only CCNA part 3 </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">CCNA project 1 (saurastra University)</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">CCNA project 2 (Department of computer sciecne network saurastra University)</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">CCNA project 3 (Giriraj hospital network Rajkot)</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">CCNA project 4 (all flour network set in giriraj hospital live project)</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text"> Cyberroam firewall with server connection using network project 1 </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">4 firewall with server connection using network project 2</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">Balaji waffer in Cyberroam firewall with server connection using network live  project </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text"> Hathi malsalaCyberroam firewall with server connection using network live  project </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">C Languages Projects using if else condition </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />
+                          <div class="overlay">
+                               <div class="text">C Languages Projects using do while looping statement  condition</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" />                          <div class="overlay">
+                               <div class="text">Security arrangement in firewall</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" /><div class="overlay">
+                               <div class="text">firewall management in hospital live project </div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                        <img src="Images/d.jpg" alt="meghanapanara" class="image" /><div class="overlay">
+                               <div class="text">file:///C:/Users/Dhingu/Desktop/Faculty%20Development%20Programme/FDP%20DAY%206%2024-04-2022/PROJECT.html#Portfolio</div>
+                          </div>
+                      </div>
+                 </div>
+                 
+            </div>
+       </div>
+
+       <div id="GitHub" class="container-fluid wow bounceInUp" data-wow-duration="3s" ><hr/>
+        <div id="Home" class="fullscreen1_bg">
+        <video src="Video/4.mp4" autoplay loop muted class="fullscreen1_bg_video"></video>
+            <div class="row" id="GitHubRow">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <center><br /><h1><i class="fa fa-github"></i>GitHub</h1></br></center>
+
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                    
+                      <i class="fa fa-5x fa-window-restore"></i><br />Programming with Experience<br /> 60 /100%
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <i class="fa fa-5x fa-gitlab"></i><br />Projects<br />1/100%
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <i class="fa fa-5x fa-github-alt"></i><br />Experineces with GitHub<br />100%
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <i class="fa fa-5x fa-user-circle-o"></i><br />study<br />100%
+                 </div>
+            </div>
+       </div>   
+    </body>
+</html> 
